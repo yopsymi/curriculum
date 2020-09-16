@@ -1,0 +1,120 @@
+body{
+  min-height: 100%;
+  height: 100%;
+}
+
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  background-color: #141f40;
+  position: relative;
+}
+
+.box{
+  width: 160px;
+  height: 60px;
+  background-color: #fff;
+  position: absolute;
+  float: right;
+  top: 20px;
+  right: 20px;
+}
+
+.smallbox1{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin: 10px;
+  }
+
+  .smallbox2{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin: 10px 0 0 0;
+  }
+
+  .smallbox3{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin: 10px;
+  }
+
+.contents{
+  height: 250px;
+}
+
+.left{
+  width: 150px;
+  height: 100%;
+  background-color: #80bfa8;
+  float: left;
+}
+
+.right{
+  width: 250px;
+  height: 100%;
+  background-color: #8c2727;
+  float: left;
+}
+
+.wideboxes{
+    width: 150px;
+    height: 170px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.widebox1{
+  width: 150px;
+  height: 50px;
+  background-color: #ff863f;
+  box-sizing: border-box;
+  border: solid 5px #fff;
+  position: absolute;
+}
+
+.widebox2{
+  width: 150px;
+  height: 50px;
+  background-color: #ff863f;
+  box-sizing: border-box;
+  border: solid 5px #fff;
+  position: absolute;
+  top: 60px;
+}
+
+.widebox3{
+  width: 150px;
+  height: 50px;
+  background-color: #ff863f;
+  box-sizing: border-box;
+  border: solid 5px #fff;
+  position: absolute;
+  top: 120px;
+}
+
+.footer{
+  height: 100px;
+  background-color: #d98d30;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
